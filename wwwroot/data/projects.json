@@ -1,14 +1,14 @@
 [
   {
     "Id": "Battleship",
-    "img": "https://i.ytimg.com/vi/1w6wt2uS8To/hqdefault.jpg",
+    "img": "https://asenciowebsite.blob.core.windows.net/images/battleship.jpg?sp=rl&st=2020-02-27T06:31:47Z&se=2021-02-28T06:31:00Z&sv=2019-02-02&sr=b&sig=pfLXQ0DAedOPCO0qYfiObsjhvJYSmxSqgOyBfR4EOlE%3D",
     "Url": "https://github.com/Jonathan-Asencio/Projects/tree/master/Java%20Projects/Battleship",
     "Title": "Battleship",
     "Description": "The game of battleship devloped in Java that can be played over the internet. I am still working on creating a GUI for this project."
   },
   {
     "Id": "Tictactoe",
-    "img": "https://vignette.wikia.nocookie.net/board-games-galore/images/4/47/Tictactoe-winning-vector-639732.jpg/revision/latest?cb=20160711013756",
+    "img": "https://asenciowebsite.blob.core.windows.net/images/Tictactoe-winning-vector-639732.jpg?sp=rl&st=2020-02-27T06:30:36Z&se=2021-02-28T06:30:00Z&sv=2019-02-02&sr=b&sig=aALB5D4qozY5ehyCqWXrqmGyehSi%2FDcm696tadm%2F4fc%3D",
     "Url": "https://github.com/Jonathan-Asencio/Projects/tree/master/Java%20Projects/Battleship",
     "Title": "Tictactoe",
     "Description": "A game of Tictactoe I developed using Java. I am still working to create a GUI"
