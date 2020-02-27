@@ -1,0 +1,10 @@
+﻿@page
+@using Asencio.WebSite.Components
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@(await Html.RenderComponentAsync<ProjectList>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>
