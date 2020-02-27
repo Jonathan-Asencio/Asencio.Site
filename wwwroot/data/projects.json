@@ -4,7 +4,7 @@
     "img": "https://i.ytimg.com/vi/1w6wt2uS8To/hqdefault.jpg",
     "Url": "https://github.com/Jonathan-Asencio/Projects/tree/master/Java%20Projects/Battleship",
     "Title": "Battleship",
-    "Description": "The game of battleship devloped in Java."
+    "Description": "The game of battleship devloped in Java that can be played over the internet. I am still working on creating a GUI for this project."
   },
   {
     "Id": "Tictactoe",
