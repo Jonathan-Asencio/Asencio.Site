@@ -21,19 +21,5 @@ namespace Asencio.WebSite.Controllers
         {
             return ProjectService.GetProjects();
         }
-
-        [HttpPatch]
-        public ActionResult Patch([FromBody] RatingRequest request)
-        {
-            ProjectService.AddRating(request.ProjectId, request.Rating);
-
-            return Ok();
-        }
-
-        public class RatingRequest
-        {
-            public string ProjectId { get; set; }
-            public int Rating { get; set; }
-        }
     }
 }

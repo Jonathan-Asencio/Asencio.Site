@@ -45,26 +45,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    @if (voteCount == 0)
-                    {
-                        <span>Be the first to vote!</span>
-                    }
-                    else
-                    {
-                        <span>@voteCount @voteLabel</span>
-                    }
-                    @for (int i = 1; i < 6; i++)
-                    {
-                        var currentStar = i;
-                        if (i <= currentRating)
-                        {
-                            <span class="fa fa-star checked" @onclick="(e => SubmitRating(currentStar))"></span>
-                        }
-                        else
-                        {
-                            <span class="fa fa-star" @onclick="(e => SubmitRating(currentStar))"></span>
-                        }
-                    }
+                    <p><a href="@selectedProject.Url">Check out the code on my GitHub</a></p>
                 </div>
             </div>
         </div>
@@ -82,34 +63,6 @@
     {
         selectedProjectId = projectId;
         selectedProject = ProjectService.GetProjects().First(x => x.Id == projectId);
-        GetCurrentRating();
     }
 
-    int currentRating = 0;
-    int voteCount = 0;
-    string voteLabel;
-
-    void GetCurrentRating()
-    {
-        if (selectedProject.Ratings == null)
-        {
-            currentRating = 0;
-            voteCount = 0;
-        }
-        else
-        {
-            voteCount = selectedProject.Ratings.Count();
-            voteLabel = voteCount > 1 ? "Votes" : "Vote";
-            currentRating = selectedProject.Ratings.Sum() / voteCount;
-        }
-
-        System.Console.WriteLine($"Current rating for {selectedProject.Id}: {currentRating}");
-    }
-
-    void SubmitRating(int rating)
-    {
-        System.Console.WriteLine($"Rating received for {selectedProject.Id}: {rating}");
-        ProjectService.AddRating(selectedProjectId, rating);
-        SelectProject(selectedProjectId);
-    }
 }
