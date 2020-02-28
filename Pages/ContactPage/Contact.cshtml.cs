@@ -30,7 +30,7 @@ namespace Asencio.WebSite
                 message.From = new MailAddress(Contact.Email);
                 message.Subject = "New E-Mail from my website";
                 message.Body = mailbody;
-                using (var smtpClient = new SmtpClient("mail.mydomain.com"))
+                using (var smtpClient = new SmtpClient("jonathan.r.asencio@outlook.com"))
                 {
                     smtpClient.Send(message);
                 }
