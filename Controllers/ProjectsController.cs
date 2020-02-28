@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Asencio.WebSite.Models;
 using Asencio.WebSite.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +26,7 @@ namespace Asencio.WebSite.Controllers
         public ActionResult Patch([FromBody] RatingRequest request)
         {
             ProjectService.AddRating(request.ProjectId, request.Rating);
-            
+
             return Ok();
         }
 

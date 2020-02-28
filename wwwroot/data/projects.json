@@ -18,6 +18,16 @@
     "img": "https://asenciowebsite.blob.core.windows.net/images/PutaVettoWork.PNG?sp=rl&st=2020-02-27T17:44:03Z&se=2021-02-27T17:44:00Z&sv=2019-02-02&sr=b&sig=aeThwBezbCOCvaTrDmhetkny32DMLTRuVeZJ%2F%2F0lSOw%3D",
     "Url": "",
     "Title": "General Dynamics Veteran Hiring Website",
-    "Description": "This is a veterans hiring website General Dynamics is developing to provide veterans and transitioning service members a path to meaningful employment. General Dynamics has enlisted the help of myself and a few colleagues to develop this website. The site is still in development and will be an ASP.NET Core web app."
+    "Description": "This is a veterans hiring website General Dynamics is developing to provide veterans and transitioning service members a path to meaningful employment. General Dynamics has enlisted the help of myself and a few colleagues to develop this website. The site is still in development and will be an ASP.Net Core web app."
+  },
+  {
+
+  },
+  {
+    "Id": "This Website",
+    "img": "https://asenciowebsite.blob.core.windows.net/images/net-core-circle-500x500.png?sp=rl&st=2020-02-27T18:28:15Z&se=2021-02-27T18:28:00Z&sv=2019-02-02&sr=b&sig=tn%2B7bGasE9gaPzV4rQ2GueSvggYkvxkt1E0uVJ4pk0A%3D",
+    "Url": "",
+    "Title": "This Website",
+    "Description": "This website is a personal project I am doing to further develop my skills. It was developed using ASP.Net Core. I will continuously update the content on this site to reflect my most current projects"
   }
 ]
