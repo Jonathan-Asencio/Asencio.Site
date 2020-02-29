@@ -3,6 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Asencio.WebSite.Models
 {
+    //Project model
     public class Project
     {
         public string Id { get; set; }
