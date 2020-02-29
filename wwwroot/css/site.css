@@ -20,7 +20,7 @@ for details on configuring this project to bundle and minify static web assets. 
 
 .card-columns .card-body {
     height: 100px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trirong';
     background: #fbfafd;
 }
 
@@ -125,13 +125,13 @@ body {
     background-color: #f4f4f4;
 }
 p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trirong';
     text-align: center;
 }
 h1 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trirong';
     text-align: center;
-    padding-bottom: 1rem; 
+    padding-bottom: 1rem;
     padding-top: 1rem;
 }
 h4 {
@@ -168,4 +168,9 @@ ul {
 .information {
     background-color: darkgray;
     margin-top: 1.5rem;
+    text-align: center;
+}
+.pipeline {
+    margin-top: 1.5rem;
+    text-align: center;
 }
