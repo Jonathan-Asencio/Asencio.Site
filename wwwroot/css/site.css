@@ -120,8 +120,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #f4f4f4;
 }
 p {
     font-family: 'Nunito', sans-serif;
@@ -163,9 +164,7 @@ ul {
     background: -moz-linear-gradient(110deg, #232020 40%, #e41749 20%);
     background: linear-gradient(110deg, #232020 40%, #e41749 20%);
 }
-body {
-    background-color: #f0efef;
-}
+
 .information {
     background-color: darkgray;
     margin-top: 1.5rem;
