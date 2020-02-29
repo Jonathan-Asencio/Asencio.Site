@@ -45,7 +45,18 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <p><a href="@selectedProject.Url">Check out the code on my GitHub</a></p>
+                    @if (selectedProject.Id == "General Dynamics Veteran Hiring Website")
+                    {
+                        <span>Sorry, but I can't share this code.</span>
+                    }
+                    else if (selectedProject.Url == "")
+                    {
+                        <span>Oops! I must've forgotten to link my code!</span>
+                    }
+                    else
+                    {
+                        <span><a href="@selectedProject.Url">Check out the code on my GitHub</a></span>
+                    }
                 </div>
             </div>
         </div>
@@ -59,10 +70,11 @@
     Project selectedProject;
     string selectedProjectId;
 
-    void SelectProject(string projectId)
+    Project SelectProject(string projectId)
     {
         selectedProjectId = projectId;
         selectedProject = ProjectService.GetProjects().First(x => x.Id == projectId);
+        return selectedProject;
     }
 
 }

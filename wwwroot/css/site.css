@@ -8,6 +8,11 @@
 
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+.card .card-title {
+    text-align: center;
+    text-wrap: normal;
+}
+
 .card-columns .card:hover .card-img {
     opacity: 1;
     -webkit-transform-style: preserve-3d;
@@ -35,6 +40,7 @@ for details on configuring this project to bundle and minify static web assets. 
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+
 
 .card-columns .card:hover {
     transform: scale(1.05);
@@ -65,6 +71,7 @@ a {
     color: #fff;
     background-color: #232020;
     border-color: #232020;
+
 }
 .btn-primary:hover {
      color: #232020;
@@ -124,6 +131,11 @@ p {
 h1 {
     font-family: 'Nunito', sans-serif;
     text-align: center;
+    padding-bottom: 1rem; 
+    padding-top: 1rem;
+}
+h4 {
+    margin-bottom: 1rem;
 }
 ul {
     font-family: 'Trirong' Regular;
@@ -135,6 +147,9 @@ ul {
     white-space: nowrap;
     line-height: 60px; /* Vertically center the text there */
     font-family: 'Trirong';
+}
+.icon {
+    margin-top: 1rem;
 }
 /*Backgrounds*/
 .bg-navbar {
@@ -151,4 +166,8 @@ ul {
 }
 body {
     background-color: #f0efef;
+}
+.information {
+    background-color: darkgray;
+    margin-top: 1.5rem;
 }
